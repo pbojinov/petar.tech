@@ -8,16 +8,16 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Logo from '../../img/logo.png';
+import Logo from './header/Logo';
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
-        <img className="logo" src={Logo} />
+        <Logo/>
         { this.props.children }
       </div>
-    );
+      );
   }
 }
 
