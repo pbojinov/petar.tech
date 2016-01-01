@@ -9,12 +9,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Logo from './header/Logo';
+import Navigation from './header/Navigation';
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
         <Logo/>
+        <Navigation/>
         { this.props.children }
       </div>
       );

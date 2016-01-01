@@ -1,1 +1,8 @@
 /*This file contains all styles related to the header of the site/application.*/
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
